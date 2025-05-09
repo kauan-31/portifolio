@@ -3,32 +3,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
+
 body {
-    background-color: rgb(255, 251, 0);
-    color: red;
-line-height: 1.6;    
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
 }
 
 a {
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color:#000000;
+    width: 50; height: 50; 
 }
-/* Cabeçalho */
+
+/* Cabecalho */
 header {
-    background: linear-gradient(135,blue, rgb(30, 255, 0));
-    color: rgb(0, 0, 0);
-    text-align: 150px;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: white;
+    text-align: center;
     padding: 2rem 0;
     position: relative;
 }
-.profile-img{
-    width: 300px;
-    height: 200px;
+.profile-img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    border: 50px solid rgb(0, 38, 255);
+    border: 5px solid white;
     margin-bottom: 1rem;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
